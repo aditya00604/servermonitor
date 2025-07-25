@@ -1,0 +1,35 @@
+User-agent: *
+Allow: /
+
+# SEO optimization for ServerWatch
+Sitemap: https://serverwatch.com/sitemap.xml
+
+# Allow search engines to index all content
+Allow: /dashboard
+Allow: /servers
+Allow: /credits
+
+# Disallow sensitive authentication endpoints
+Disallow: /api/
+
+# Crawl delay recommendation
+Crawl-delay: 1
+
+# Optimize for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
